@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="w#V[H:.cC9Lp5XT#[f0}">Player</variable><variable type="KIND_SpriteKind" id="NitL;U1|z~XoG5-p)BAE">Projectile</variable><variable type="KIND_SpriteKind" id="LW+D-]6Uvw27oN~@pp[m">Food</variable><variable type="KIND_SpriteKind" id="-Iy~H]tDtr/K,30(?r6B">Enemy</variable><variable id="`Cz:WrkTdwb{$FA_cTYd">duck!</variable><variable id="Ml{XZp-lO)Ovu-}+]f10">brain eating bacteria</variable><variable id="OE9`dI@!1`CKQ_ng)9]I">projectile2</variable><variable id="lZ,8.meKP6,y?ci1?MnL">mySprite</variable></variables><block type="pxt-on-start" id=";S(JNWwxJ`R?V||F8#*n" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="d0TFJuo()[giXnsJYY2#"><field name="VAR" id="`Cz:WrkTdwb{$FA_cTYd">duck!</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Y7mCB~k`7nPoxw%1ykf?"><value name="img"><shadow type="screen_image_picker" id="VIL42Ld}$IM?p6w9PS^9"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 d 4 c . . 
+. . . . b 5 5 1 f f d d 4 4 4 b 
+. . . . b 5 5 d f b 4 4 4 4 b . 
+. . . b d 5 5 5 5 4 4 4 4 b . . 
+. . b d d 5 5 5 5 5 5 5 5 b . . 
+. b d d d d 5 5 5 5 5 5 5 5 b . 
+b d d d b b b 5 5 5 5 5 5 5 b . 
+c d d b 5 5 d c 5 5 5 5 5 5 b . 
+c b b d 5 d c d 5 5 5 5 5 5 b . 
+. b 5 5 b c d d 5 5 5 5 5 d b . 
+b b c c c d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"VIL42Ld}$IM?p6w9PS^9"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=")07byan=x_/4ucuq@o5_"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="mvrmD`C|(j~8nr]VrK43" x="10" y="170"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_set" id="(~e4)Z$03x_:1$Wt/`H1"><field name="VAR" id="Ml{XZp-lO)Ovu-}+]f10">brain eating bacteria</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromsprite" id="^Q5|(RbBZZ_zO2=(|/K{"><value name="img"><shadow type="screen_image_picker" id="t*g{f!0fo+hk/=NT~9tJ"><field name="img">assets.image`Brain eating bacteria`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="sprite"><block type="variables_get" id="rfNVXBit4E6A{7c43#Tf"><field name="VAR" id="`Cz:WrkTdwb{$FA_cTYd">duck!</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="*8^!GDao-~}(Qi[`YhUg"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="r/,ihJ@IN#sWk9dkL2gk"><field name="speed">-15</field></shadow></value></block></value></block></statement></block></xml>
